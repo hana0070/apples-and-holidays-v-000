@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday|
     season.each do |holiday, supplies|
+      binding.pry
       end
     end
   end
