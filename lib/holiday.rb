@@ -42,7 +42,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
   # Write a method that adds a new holiday and its associated supplies to any season
   holiday_hash.map << season
-
+  holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
